@@ -7,7 +7,7 @@ Glaucoma is a neurodegenerative eye disease characterized by the damage of the o
 
 Although multiple tests, such as tonometry to measure IOP or gonioscopy to determine aqueous humor drainage, fundoscopy, which examines the optic nerve and retina, is well considered to provide the earliest signs of glaucoma [2,3]. Diseased retinas have key morphological changes of the retina in what is termed cupping, where the size of the optic cup increases to the size of the optic disk due to the increased IOP [3]. This size difference found in a Fundoscopic retinal image is what ophthalmologists use to diagnose glaucoma.
 
-Dataset: Glaucoma Fundus Imaging Datasets contain fundus images and corresponding optic disc/cup segmentations and Glaucoma diagnosis information from three datasets: ORIGA, REFUGE, and G1020. The datasets were modified to add fundus images cropped to the region of the optic disc and cup, and the corresponding masks. [4]
+Dataset: For this project, we used the PAPILA dataset collected at the Department of Ophthalmology of the Hospital General Universitario Reina Sofía, HGURS, (Murcia, Spain) between the years 2018 and 2020. The dataset contains 2576 × 1934 retinal fundus images of both eyes of all patients with a total of 480 files in JPEG format corresponding to 240 patients. We decided to use 80% of the images for training and the remaining 20% for testing and validation. [4]
 
 Goal of the project: Create a machine learning algorithm that can clearly distinguish between optic disc/cup images  and provide a Glaucoma diagnosis using binary structures.
 
@@ -20,7 +20,7 @@ References
 
 [3] W. F. Hoyt, L. FriséN, and N. M. Newman, “Fundoscopy of nerve fiber layer defects in glaucoma,” Nov. 01, 1973. https://iovs.arvojournals.org/article.aspx?articleid=2203283
 
-[4] “Glaucoma Fundus Imaging Datasets,” www.kaggle.com. https://www.kaggle.com/datasets/arnavjain1/glaucoma-datasets 
+[4] O. Kovalyk, J. Morales-Sánchez, R. Verdú-Monedero, I. Sellés-Navarro, A. Palazón-Cabanes, and J.-L. Sancho-Gómez, “PAPILA: Dataset with fundus images and clinical data of both eyes of the same patient for glaucoma assessment,” Scientific Data, vol. 9, no. 1, Jun. 2022, doi: https://doi.org/10.1038/s41597-022-01388-1. 
 
 
 
